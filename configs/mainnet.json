@@ -1,18 +1,14 @@
 {
   "Name": "Mainnet",
-  "Desc": "Bitcoin Cash Mainnet",
-  "Id": "0xe8f3e1e3",
-  "Port": 8333,
-  "Pver": 70001,
-  "DNSName": "seeder.example.com",
+  "Desc": "Peercoin Mainnet",
+  "Id": "0xe6e8e9e5",
+  "Port": 9901,
+  "Pver": 70002,
+  "DNSName": "seeder.peercoin.net",
   "TTL": 600,
-  "Seeder1": "seed.bitcoinabc.org",
-  "Seeder2": "seed-abc.bitcoinforks.org",
-  "Seeder3": "btccash-seeder.bitcoinunlimited.info",
-  "InitialIPs": ["127.0.0.1"],
+  "Seeder1": "seed.peercoin-library.org",
+  "Seeder2": "seed2.peercoin.net",
   "ServiceFilter": [
-    "NodeNetwork",
-    "NodeCF",
-    "NodeBloom"
+    "NodeNetwork"
   ]
 }
